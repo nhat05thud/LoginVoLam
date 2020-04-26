@@ -1,14 +1,14 @@
-using System;
-using System.Data.Entity;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-
 namespace LoginVoLam.EntityFramework.Models
 {
+    using System;
+    using System.Data.Entity;
+    using System.ComponentModel.DataAnnotations.Schema;
+    using System.Linq;
+
     public partial class LoginVoLamDbContext : DbContext
     {
         public LoginVoLamDbContext()
-            : base("name=LoginVoLamDbContext")
+            : base("name=LoginVoLamDbContext1")
         {
         }
 
